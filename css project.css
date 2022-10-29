@@ -1,0 +1,370 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to bottom, #0a090c, #252332);
+}
+html {
+    scroll-behavior: smooth;
+}
+header{
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    background-color: #fff;
+}
+header div{
+    float: left;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo{
+    margin-left: 200px;
+    padding: 10px;
+    
+}
+header .nav{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 200px;
+    overflow: hidden;
+}
+header .nav ul{
+    list-style: none;
+}
+header .nav ul li{
+    float: left;
+    padding-right: 40px;
+    padding-top: 4px;
+}
+header .nav ul li a{
+    text-decoration: none;
+    color: #0a090c;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight:bold;
+}
+
+
+header .nav ul li a:hover{
+    color: #7f97ff;
+}
+
+
+header.sticky{
+    padding: 5px 100px;
+    background: #fff;
+}
+
+
+
+/*section 1 start*/
+.section1{
+    background-color: transparent;
+    width: 100%;
+    height: 665px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 75px;
+}
+.half1, .half2{
+    width: 50%;
+}
+.half1{
+    margin-left: 200px;
+    margin-bottom: 120px;
+}
+.half2{
+    padding-right: 200px;
+    margin-top: 50px;
+}
+.half2 img{
+    max-width: 100%;
+    height: auto;
+}
+.half1 h3{
+    font-weight: normal;
+}
+.half1 h1{
+    color: white;
+}
+.half1 p{
+    color: white;
+}
+.half1 input{
+    padding: 8px 20px;
+    background-image: linear-gradient(to right, hsl(232, 94%, 75%), hsl(252, 100%, 76%));
+    outline: none;
+    color: white;
+    border: 1px solid #8393ff;
+    font-size: 15px;
+    cursor: pointer;
+}
+.half1 input:hover{
+    box-shadow: 5px 10px 30px rgba(130,147,255, 0.5);
+    transition: all 0.5s ease-in 0.1s;
+    outline: none;
+}
+/*section 1 end*/
+
+/*section 2 start*/
+
+.section2{
+    width: 100%;
+    height: 620px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
+.section2 div{
+    width: 40%;
+    margin: 0 auto;
+}
+.section2 img{
+    width: 100%;
+    height: auto;
+}
+.section2 .img2{
+    padding-left: 150px;
+}
+
+
+.text2 p{
+    font-size: 16px;
+    color: white;
+    width: 80%;
+}
+.text2 h1{
+    color: white;
+}
+.text2 input{
+    font-size: 15px;
+    padding: 8px 20px;
+    outline: none;
+    color: white;
+    background-image: linear-gradient(to right, hsl(232, 94%, 75%), hsl(252, 100%, 76%));
+    border: none;
+    cursor: pointer;
+}
+.text2 input:hover{
+    box-shadow: 5px 10px 30px rgba(130,147,255, 0.5);
+    transition: all 0.5s ease-in 0.1s;
+    outline: none;
+}
+/*section 2 end*/
+
+/*Section 3 Start*/
+.section4{
+    width: 100%;
+    height: 300px;
+    background-color: #252332;
+}
+.section4 div{
+    float: left;
+    width: 20%;
+    margin: 0 auto;
+    position: relative;
+    top: 100px;
+    left: 200px;
+    overflow: hidden;
+}
+.section4 h1{
+    font-size: 45px;
+    line-height: 0px;
+}
+.section4 h1,.section4 p{
+    text-align: center;
+    color: white;
+}
+/*Section 3 End*/
+
+/*Section 4 Start */
+.section3{
+    width: 100%;
+    height: 650px;
+    margin: 0 auto;
+    text-align: center;
+}
+.firsttext h1{
+    font-size: 40px;
+    line-height: 10px;
+}
+.firsttext p{
+    width: 670px;
+    color: rgba(0,0,0,0.6);
+    margin: 0 auto;
+}
+.service{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 45px;
+}
+.ser1, .ser2{
+    width: 100%;
+    overflow: hidden;
+}
+.ser2{
+    padding-top: 30px;
+}
+.ser1 div, .ser2 div{
+    width: 32%;
+    float: left;
+    padding: 5px;
+    margin: 0 auto;
+}
+.service i{
+    font-size: 45px;
+    color: rgba(0,0,0,0.7);
+}
+.service h1{
+    color: rgba(0,0,0,0.9);
+}
+.service p{
+    color: rgba(0,0,0,0.6);
+}
+.ser1 div:hover{
+    background-color: #8293ff;
+    color: white;
+}
+.ser1 div:hover i{
+    color: white;
+}
+.ser1 div:hover h1{
+    color: white;
+}
+.ser1 div:hover p{
+    color: white;
+}
+.ser2 div:hover{
+    background-color: #8293ff;
+}
+.ser2 div:hover i{
+    color: white;
+}
+.ser2 div:hover h1{
+    color: white;
+}
+.ser2 div:hover p{
+    color: white;
+}
+/*Section 4 End */
+
+/*Pricing Table Start*/
+.section6{
+    width: 100%;
+    height: 900px;
+    padding-top: 50px;
+}
+.section6 .text4{
+    text-align: center;
+    padding: 2% 0;
+}
+.section6 .text4 h1{
+    font-size: 40px;
+    line-height: 0;
+    padding-top: 15px;
+    color: white;
+}
+.section6 .text4 p{
+    color: white;
+}
+.section6 .card{
+    width: 75%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+.section6 .card1{
+    width: 300px;
+    height: 600px;
+    background-color: rgb(216, 216, 232);
+    text-align: center;
+    border: 1px solid rgba(0,0,0, 0.1);
+}
+.section6 .card1 h1{
+    font-size: 50px;
+    padding-top: 8px;
+}
+.section6 .card1 .price{
+    font-size: 40px;
+}
+.section6 .card1 input{
+    outline: none;
+    background-color: #8293ff;
+    color: white;
+    font-size: 25px;
+    padding: 6px 60px;
+    font-weight: bold;
+    border: 1px solid white;
+    cursor: pointer;
+}
+.section6 .card1:hover{
+    background-color: #8293ff;
+    color: white;
+    transition: all 0.25s ease-in;
+    transform: scale(1.05);
+    border: 1px solid rgba(130, 147, 255, 0.5);
+    box-shadow: 0 8px 12px 0 rgba(0,0,0, 0.5);
+}
+.section6 .card1:hover input{
+    color: rgba(0,0,0, 0.9);
+    background-color: white;
+}
+/*Pricing Table End*/
+
+/*Footer Start*/
+footer{
+    background-color: rgb(4, 9, 30);
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    color: white;
+    margin-top: 180px;
+    margin: 0;
+}
+footer .foot{
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+.foot1 .abp{
+    width: 280px;
+}
+footer .foot .foot1 p{
+    color: rgba(255, 255, 255, 0.5);
+}
+footer .foot .foot1 input{
+    font-size: 15px;
+    outline: none;
+    border: none;
+    padding: 10px 10px 10px 10px;
+}
+footer .foot .foot1 button{
+    font-size: 18px;
+    color: white;
+    background-image: linear-gradient(to left, hsl(232, 94%, 75%), hsl(252, 100%, 76%));
+    outline: none;
+    border: none;
+    cursor: pointer;
+    padding: 8px 15px;
+}
+footer .foot .foot1 i{
+    font-size: 15px;
+    cursor: pointer;
+    padding: 2px 5px;
+}
+footer .foot .foot1 i:hover{
+    color: #8293ff;
+}
+
+/*Footer End*/
+
